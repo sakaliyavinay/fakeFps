@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fakefps",
+  "version": "${version}",
+  "name": "Fake FPS",
+  "description": "Displays a fake, highly customizable FPS counter on the Minecraft HUD.",
+  "authors": [
+    "Vinay"
+  ],
+  "contact": {
+    "sources": "https://github.com"
+  },
+  "license": "MIT",
+  "icon": "assets/fakefps/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fakefps.FakeFPSMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
